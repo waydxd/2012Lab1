@@ -25,31 +25,42 @@ Student::Student() {
 // while 'grade' is initialized to 0 similar to default constructor.
 Student::Student(const string& name, int SID, const string& department, int year) {
     // TODO
-    
+    this->name = name;
+    this->SID = SID;
+    this->department = department;
+    this->year = year;
+    this->grade = {0.0, 0.0, 0.0, 0.0};
 }
 
 // TODO 3: Implement Student mutator function.
 void Student::setGrade(const CourseGrade& grade) {
     // TODO
+    this->grade = grade;
+    return;
 }
 
 // TODO 4: Implement Student accesor functions.
 string Student::getName() const { 
     // TODO
+    return this->name;
 }
 
 int Student::getSID() const { 
     // TODO
+    return this->SID;
 }
 
 string Student::getDepartment() const { 
     // TODO
+    return this->department;
 }
 
 int Student::getYear() const { 
     // TODO
+    return this->year;
 }
 
 double Student::getTotalPercentage() const { 
     // TODO
+    return this->grade.getTotalPercentage();
 }
