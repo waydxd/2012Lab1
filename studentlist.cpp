@@ -7,6 +7,12 @@
 // For simplicity, you don't need to handle if the name/SID already exists.
 void StudentList::addStudent(const string& name, int SID, const string& department, int year) {
     // TODO
+    if(this->numStudents<CLASS_CAPACITY){
+        Student temp(name, SID, department, year);
+        this->students[numStudents] = temp;
+        numStudents++;
+    }
+    return;
 }
 
 // TODO 6: Implement StudentList::setStudentGrade.
@@ -15,6 +21,13 @@ void StudentList::addStudent(const string& name, int SID, const string& departme
 // For simplicity, you may assume there are no multiple students with the same SID.
 void StudentList::setStudentGrade(int SID, const CourseGrade& grade) {
     // TODO
+    //linear search
+    for(int i=0;i<numStudents;i++){
+        if(this->students[i].getSID()==SID){
+            this->students[i].setGrade(grade);
+            return;
+        }
+    }
 }
 
 // Given function to print the content of the list,
