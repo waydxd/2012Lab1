@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/wayd/Downloads/lab1_skeleton",
+      "program": "/Users/wayd/Downloads/lab1_skeleton/build/Debug/outDebug"
+    }
+  ]
+}
