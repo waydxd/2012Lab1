@@ -72,7 +72,7 @@ void StudentList::displaySortedGrade(const string& depFilter, int yearFilter) co
         sortedStudents[i] = students[i];
     for (int i=0; i<numStudents; ++i) {
         for (int j=i+1; j<numStudents; ++j) {
-            if (false) { // TODO: add the correct swap condition here
+            if (sortedStudents[i].getTotalPercentage()<sortedStudents[j].getTotalPercentage()) { // TODO: add the correct swap condition here
                 Student temp = sortedStudents[i];
                 sortedStudents[i] = sortedStudents[j];
                 sortedStudents[j] = temp;
