@@ -1,0 +1,51 @@
+Viewing all students sorted by name: 
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Charles         20345678        MATH    3       77.4
+Danny           20456789        CSE     3       57.7
+Evan            20567890        PHYS    1       71.7
+Francis         20678901        CSE     2       93.4
+Gerald          20789012        MATH    4       65.2
+Harry           20890123        CSE     2       51.5
+
+Viewing all CSE students sorted by name:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Danny           20456789        CSE     3       57.7
+Francis         20678901        CSE     2       93.4
+Harry           20890123        CSE     2       51.5
+
+Viewing all year 2 students sorted by name:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Francis         20678901        CSE     2       93.4
+Harry           20890123        CSE     2       51.5
+
+Viewing all students sorted by grade:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Francis         20678901        CSE     2       93.4
+Alice           20123456        CSE     2       82.2
+Bob             20234567        ECE     2       77.5
+Charles         20345678        MATH    3       77.4
+Evan            20567890        PHYS    1       71.7
+Gerald          20789012        MATH    4       65.2
+Danny           20456789        CSE     3       57.7
+Harry           20890123        CSE     2       51.5
+
+Viewing all year 2 CSE students sorted by grade:
+
+Name            SID             Dep     Yr      Total
+======================================================
+Francis         20678901        CSE     2       93.4
+Alice           20123456        CSE     2       82.2
+Harry           20890123        CSE     2       51.5
